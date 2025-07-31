@@ -39,7 +39,7 @@ const App = () => {
 
         setLoggedIn(true);
       } catch (error) {
-        console.error('❌ CometChat init/login error:', error);
+        console.error('❌ CometChat init/login error:');
       }
     };
 
